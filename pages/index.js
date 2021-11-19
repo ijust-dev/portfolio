@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/header'
-import Link from 'next/link'
-import Image from 'next/image'
+import Project from '../components/project'
 
 export default function Home() {
   return (
@@ -14,53 +13,37 @@ export default function Home() {
       <Header />
 
       <main className="h-full flex flex-col text-white flex-1 py-10 text-left flex-wrap sm:justify-start sm:content-start sm:w-10/12 xl:flex-row">
-        <div className="relative mb-5 max-w-xl sm:w-full xl:p-5 xl:max-w-2xl">
-          <h2 className="absolute bottom-0 w-full pt-10 pl-3 lowercase z-10 bg-gradient-to-t from-gray-900 xl:bottom-5 p-3 xl:text-2xl">
-            Gokzstats | Javascript, jQuery, CSS, HTML
-          </h2>
-          <Image
-            src="/images/gokzstats/homepage.png"
-            height={315}
-            width={560}
-            alt="Screenshot of the homepage for the website gokzstats.com"
-          />
-        </div>
+        <Project
+          name="gokzstats"
+          url="https://gokzstats.com"
+          tags="javascript, jquery, css, html"
+          image="/images/gokzstats/homepage.png"
+          alttext="Screenshot of the homepage for the website gokzstats.com"
+        />
 
-        <div className="relative mb-5 max-w-xl sm:w-full xl:p-5 xl:max-w-2xl">
-          <h2 className="absolute bottom-0 w-full pt-10 pl-3 lowercase z-10 bg-gradient-to-t from-gray-900 xl:bottom-5 p-3 xl:text-2xl">
-            College react project | React, CSS
-          </h2>
-          <Image
-            src="/images/college_project/college_final_project_homepage.png"
-            height={315}
-            width={560}
-            alt="Screenshot of a blue and white website with large text displaying 'First Name'"
-          />
-        </div>
+        <Project
+          name="college react project"
+          url="https://github.com/ijust-dev/FotoGallery"
+          tags="react, css"
+          image="/images/college_project/college_final_project_homepage.png"
+          alttext="Screenshot of a green and white website with large text displaying 'First Name'"
+        />
 
-        <div className="relative mb-5 max-w-xl sm:w-full xl:p-5 xl:max-w-2xl">
-          <h2 className="absolute bottom-0 w-full pt-10 pl-3 lowercase z-10 bg-gradient-to-t from-gray-900 xl:bottom-5 p-3 xl:text-2xl">
-            Task list | Javascript, CSS, HTML 
-          </h2>
-          <Image
-            src="/images/tasklist_screenshot.png"
-            height={315}
-            width={560}
-            alt="Screenshot of a black and white website for creating task lists"
-          />
-        </div>
+        <Project
+          name="task list"
+          url="https://ijust-dev.github.io/task_list/"
+          tags="javascript, css, html"
+          image="/images/tasklist_screenshot.png"
+          alttext="Screenshot of a black and white website for creating task lists"
+        />
 
-        <div className="relative mb-5 max-w-xl sm:w-full xl:p-5 xl:max-w-2xl">
-          <h2 className="absolute bottom-0 w-full pt-10 pl-3 lowercase z-10 bg-gradient-to-t from-gray-900 xl:bottom-5 p-3 xl:text-2xl">
-            Portfolio | next.js, tailwindcss
-          </h2>
-          <Image
-            src="/images/portfolio_homepage.png"
-            height={315}
-            width={560}
-            alt="Screenshot of the homepage for my personal portfolio (the page you're on now)"
-          />
-        </div>
+        <Project
+          name="portfolio"
+          url="/"
+          tags="next.js, tailwindcss"
+          image="/images/portfolio_homepage.png"
+          alttext="Screenshot of the homepage for my personal portfolio"
+        />
       </main>
     </div>
   )
