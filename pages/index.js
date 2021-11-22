@@ -49,6 +49,14 @@ export default function Home() {
                     image="/images/portfolio_homepage.png"
                     alttext="Screenshot of the homepage for my personal portfolio"
                 />
+
+                <Project
+                    name="teron gorefiend sim"
+                    url="https://play.unity.com/mg/other/teron-gorefiend-sim"
+                    tags="unity"
+                    image="/images/gorefiend_sim.png"
+                    alttext="Screenshot of the teron gorefiend sim/game being played."
+                />
             </main>
         </div>
     )
