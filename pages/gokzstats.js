@@ -19,7 +19,7 @@ export default function Gokzstats() {
             />
 
             <main className="h-full flex flex-col text-white flex-1 py-10 text-left flex-wrap sm:justify-start sm:content-start sm:w-10/12 xl:flex-row">
-                yo.
+                Lorem Ipsum
 
             </main>
             <Nav
