@@ -12,7 +12,7 @@ export default function Home() {
 
             <Header
                title="Jacob Barrett"
-                description="Hello! I'm currently learning next.js and Tailwind CSS. You can contact me at my email below."
+                description="Hello! This is a visual display of some of the things I've worked on. Contact me at the email below."
                 urlhref="mailto:jacob@ijust.dev"
                 urldisplay="jacob@ijust.dev"
             />
