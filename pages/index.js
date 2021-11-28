@@ -27,6 +27,14 @@ export default function Home() {
                 />
 
                 <Project
+                    name="WoW HC Creator"
+                    url="https://hardcore-wow-character-creator.vercel.app/"
+                    tags="Next.js, tailwindcss"
+                    image="/images/hardcore-wow-creator.png"
+                    alttext="Screenshot of the hardcore wow creator tool"
+                />
+
+                <Project
                     name="college react project"
                     url="https://github.com/ijust-dev/FotoGallery"
                     tags="react, css"
