@@ -11,7 +11,7 @@ export default function Home() {
             />
 
             <Header
-               title="Jacob Barrett"
+                title="Jacob Barrett"
                 description="Hello! This is a visual display of some of the things I've worked on. Contact me at the email below."
                 urlhref="mailto:jacob@ijust.dev"
                 urldisplay="jacob@ijust.dev"
@@ -22,7 +22,7 @@ export default function Home() {
                     name="gokzstats"
                     url="https://gokzstats.com"
                     tags="javascript, jquery, css, html"
-                    image="/images/gokzstats/homepage.png"
+                    image="/images/gokzstats/homepage.jpg"
                     alttext="Screenshot of the homepage for the website gokzstats.com"
                 />
 
@@ -30,7 +30,7 @@ export default function Home() {
                     name="WoW HC Creator"
                     url="https://hardcore-wow-character-creator.vercel.app/"
                     tags="Next.js, tailwindcss"
-                    image="/images/hardcore-wow-creator.png"
+                    image="/images/hardcore-wow-creator.jpg"
                     alttext="Screenshot of the hardcore wow creator tool"
                 />
 
@@ -38,7 +38,7 @@ export default function Home() {
                     name="college react project"
                     url="https://github.com/ijust-dev/FotoGallery"
                     tags="react, css"
-                    image="/images/college_project/college_final_project_homepage.png"
+                    image="/images/college_project/college_final_project_homepage.jpg"
                     alttext="Screenshot of a green and white website with large text displaying 'First Name'"
                 />
 
@@ -46,7 +46,7 @@ export default function Home() {
                     name="task list"
                     url="https://ijust-dev.github.io/task_list/"
                     tags="javascript, css, html"
-                    image="/images/tasklist_screenshot.png"
+                    image="/images/tasklist_screenshot.jpg"
                     alttext="Screenshot of a black and white website for creating task lists"
                 />
 
@@ -54,7 +54,7 @@ export default function Home() {
                     name="portfolio"
                     url="/"
                     tags="next.js, tailwindcss"
-                    image="/images/portfolio_homepage.png"
+                    image="/images/portfolio_homepage.jpg"
                     alttext="Screenshot of the homepage for my personal portfolio"
                 />
 
@@ -62,7 +62,7 @@ export default function Home() {
                     name="teron gorefiend sim"
                     url="https://play.unity.com/mg/other/teron-gorefiend-sim"
                     tags="unity"
-                    image="/images/gorefiend_sim.png"
+                    image="/images/gorefiend_sim.jpg"
                     alttext="Screenshot of the teron gorefiend sim/game being played."
                 />
             </main>
