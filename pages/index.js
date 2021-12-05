@@ -34,7 +34,7 @@ export default function Home() {
                 <Project
                     name="WoW HC Creator"
                     url="https://hardcore-wow-character-creator.vercel.app/"
-                    githuburl="https://github.com/ijust-dev/gokzstats"
+                    githuburl="https://github.com/ijust-dev/hardcore_wow_character_creator"
                     tags="Next.js, tailwindcss"
                     image="/images/hardcore-wow-creator.jpg"
                     alttext=""
@@ -61,7 +61,7 @@ export default function Home() {
                 <Project
                     name="Task list"
                     url="https://ijust-dev.github.io/task_list/"
-                    githuburl="https://github.com/ijust-dev/gokzstats"
+                    githuburl="https://github.com/ijust-dev/task_list"
                     tags="javascript, css, html"
                     image="/images/tasklist_screenshot.jpg"
                     alttext=""
