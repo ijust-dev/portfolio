@@ -43,7 +43,7 @@ export default function Home() {
                 <Project
                     name="Portfolio"
                     url="/na"
-                    githuburl="https://github.com/ijust-dev/gokzstats"
+                    githuburl="https://github.com/ijust-dev/portfolio"
                     tags="next.js, tailwindcss"
                     image="/images/portfolio_homepage.jpg"
                     alttext=""
