@@ -2,15 +2,15 @@ import Link from "next/link";
 
 export default function Header(props) {
     return (
-        <header className="text-blue-50 flex flex-col pt-10 xl:pt-20 sm:text-left sm:w-10/12 xl:p-5">
-            <div className="w-full flex flex-col sm:w-96 lowercase">
-              <h1 className="text-4xl 2xl:text-6xl">
+        <header className="pt-10 xl:pt-20 lg:pr-24 xl:pr-24">
+            <div className="w-full flex flex-col">
+              <h1 className="text-4xl xl:text-5xl text-header font-bold">
                 {props.title}
               </h1>
-              <p className="text-xl mt-5 sm:w-96 2xl:text-3xl"> 
+              <p className="text-xl mt-5 xl:text-xl text-font font-medium tracking-wide lg:tracking-normal lg:w-6/12"> 
                 {props.description}
               </p>
-              <address className=" text-xl 2xl:text-2xl mt-5 underline not-italic">
+              <address className="text-xl xl:text-xl mt-5 underline not-italic text-email font-medium">
                 <Link href={props.urlhref}>
                   {props.urldisplay}
                 </Link>

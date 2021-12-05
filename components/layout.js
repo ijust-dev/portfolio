@@ -1,6 +1,7 @@
 const Layout = ({ children }) => {
+
     return (
-        <div className="content bg-gray-900 px-5 w-full">
+        <div className="content font-jost bg-background px-5">
             { children }
         </div>
     );
