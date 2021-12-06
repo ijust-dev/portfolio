@@ -15,7 +15,7 @@ export default function PageInfo(props) {
             <title className="lowercase">{props.pagetitle}</title>
             <link rel="icon" href="/favicon.ico" />
             <meta charset="UTF-8" />
-            <meta description={props.description} />
+            <meta name="description" content={props.description} />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet" />
