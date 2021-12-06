@@ -61,7 +61,7 @@ export default function Project(props) {
 
             {/* Tablet+Desktop */}
 
-            <div className="flex bg-email rounded-l-lg text-email md:flex"> </div>
+            <div className="flex bg-highlight rounded-l-lg md:flex"> </div>
             <div className="pt-3 pl-3 flex flex-col w-11/12 md:flex md:m-10">
                 <h1 className="font-medium text-2xl mb-3.5">
                     {props.name}
