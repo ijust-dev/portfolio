@@ -7,52 +7,44 @@ export default function Project(props) {
         switch (props.name) {
             case "Gokzstats":
                 return (
-                    <p>
-                        A leaderboard website for the Counter-Strike: Global Offensive Kreedz community, built from scratch using <span className="text-javascript">javascript</span>, <span className="text-html">html</span>, and <span className="text-css">css</span>.
-                        <br />
-                        <br />
-                        This site was built as a display of their new API system, storing information such as level completion, fastest times, world records, and more. Since it’s existence, it’s been visited by over 20,000 players.
-                    </p>  
+                    <div>
+                        <p className="mb-5">A leaderboard website for the Counter-Strike: Global Offensive Kreedz community, built from scratch using <span className="text-javascript">javascript</span>, <span className="text-html">html</span>, and <span className="text-css">css</span>.</p>
+                        <p>This site was built as a display of their new API system, storing information such as level completion, fastest times, world records, and more. Since it’s existence, it’s been visited by over 20,000 players.</p>
+                    </div>
                 );
             case "WoW HC Creator":
                 return (
-                    <p>
-                        A World of Warcraft hardcore character creator built using <span className="text-javascript">next.js</span> and <span className="text-css">tailwindcss</span>.
-                        <br />
-                        <br />
-                        A weekend project made for the purposes of generating a set of random restrictions for a player wanting to experience a “hardcore” version of the game.
-                    </p>
+                    <div>
+                        <p className="mb-5">A World of Warcraft hardcore character creator built using <span className="text-javascript">next.js</span> and <span className="text-css">tailwindcss</span>.</p>
+                        <p>A weekend project made for the purposes of generating a set of random restrictions for a player wanting to experience a “hardcore” version of the game.</p>
+                    </div>
                 );
             case "Personal store project":
                 return (
-                    <p>
-                        A 3-person college project to design and create a portfolio and store front using <span className="text-javascript">React</span>.
-                    </p>
+                    <div>
+                        <p>A 3-person college project to design and create a portfolio and store front using <span className="text-javascript">React</span>.</p>
+                    </div>
                 );
             case "Task list":
                 return (
-                    <p>
-                        A simple task list app built from scratch using <span className="text-javascript">javascript</span>, <span className="text-html">html</span>, and <span className="text-css">css</span>.
-                        <br />
-                        <br />
-                        This was created to replicate a friend's task list app so we could compare each other's code.
-                    </p>
+                    <div>
+                        <p className="mb-5">A simple task list app built from scratch using <span className="text-javascript">javascript</span>, <span className="text-html">html</span>, and <span className="text-css">css</span>.</p>
+                        <p>This was created to replicate a friend's task list app so we could compare each other's code.</p>
+                    </div>
                 );
             case "Portfolio":
                 return (
-                    <p>
-                        My personal website built with <span className="text-javascript">next.js</span> and <span className="text-css">tailwindcss</span>. Designed with Figma using references.
-                    </p>
+                    <div>
+                        <p>My personal website built with <span className="text-javascript">next.js</span> and <span className="text-css">tailwindcss</span>. Designed with Figma using references.</p>
+                    </div>
                 );
             case "Teron Gorefiend simulator":
                 return (
-                    <p>
-                        A non-web development project. This was a Unity project made to replicate an old flash game.
-                        <br />
-                        <br />
-                        The goal of the game is to teach the user how to handle the Teron Gorefiend encounter in World of Warcraft's raid "Black Temple". Built with Unity and C#.
-                    </p>
-                )
+                    <div>
+                        <p className="mb-5">A non-web development project. This was a Unity project made to replicate an old flash game.</p>
+                        <p>The goal of the game is to teach the user how to handle the Teron Gorefiend encounter in World of Warcraft's raid "Black Temple". Built with Unity and C#.</p>
+                    </div>
+                );
         }
     }
 
