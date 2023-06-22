@@ -33,7 +33,7 @@ export default function Home() {
 
                 <Project
                     name="WoW HC Creator"
-                    url="https://hardcore-wow-character-creator.vercel.app/"
+                    url="https://hardcore.ijust.dev"
                     githuburl="https://github.com/ijust-dev/hardcore_wow_character_creator"
                     tags="Next.js, tailwindcss"
                     image="/images/hardcore-wow-creator.jpg"
